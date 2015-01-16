@@ -5,6 +5,7 @@
 # Home page
 GET     /login                                   Application.login
 GET		/										 Application.home
+GET		/home									Application.home
 GET     /buyer                                   Application.buyer
 GET     /seller                                   Application.seller
 GET     /realtor                                   Application.realtor
