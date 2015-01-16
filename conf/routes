@@ -1,0 +1,25 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /login                                   Application.login
+GET		/										 Application.home
+GET     /buyer                                   Application.buyer
+GET     /seller                                   Application.seller
+GET     /realtor                                   Application.realtor
+GET		/signup										Application.signup
+POST	/signup										Application.addUser
+POST	/signin										Application.signinUser
+
+GET		/theDeepDarkPlace						Application.theDeepDarkPlace
+
+GET		/logout									Application.logout
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+GET		/dist/									staticDir:dist
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
