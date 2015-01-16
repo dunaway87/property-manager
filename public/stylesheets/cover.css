@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #aaffFF;
- background-image: url('/public/images/background.JPG');
+ background-image: url('public/images/background.JPG');
  background-size: cover;
  }
  
