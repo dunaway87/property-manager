@@ -3,6 +3,6 @@
  body {
   height: 100%;
   background-color: #aaffFF;
- background-image: url('public/images/signin-background.jpg');
+ background-image: url('../../public/images/signin-background.jpg');
  background-size: cover;
  }
