@@ -23,3 +23,17 @@ GET     /public/                                staticDir:public
 GET		/dist/									staticDir:dist
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+
+
+
+
+
+
+
+
+
+
+
+GET     property-manager/public/                staticDir:public
+GET		property-manager/dist/					staticDir:dist
+
