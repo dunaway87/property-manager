@@ -26,6 +26,7 @@ html, body {
 
 .wrapper {
 	min-height: calc(100% - 65px);
+	heigth: calc(100% - 65px);
 	margin: 0 auto -45px; /* the bottom margin is the negative value of the footer's height */
 }
 footer, .push {
@@ -113,4 +114,13 @@ body {
 
 #loggedInDropDown{
 	display:none;
+}
+
+.container{
+	width:75%;
+	background:white;
+	border:solid;
+	border-color:#333333;
+	opacity:.8;
+	height: calc(100% - 65px);
 }

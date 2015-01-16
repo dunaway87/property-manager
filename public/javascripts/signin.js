@@ -1,7 +1,6 @@
 $('#signin-btn').click(function(){
 	
 	var userData = {
-		
 		email:$("#inputEmail").val(),
 		password:$("#inputPassword").val(),
 	}
