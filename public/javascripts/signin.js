@@ -13,6 +13,7 @@ $('#signin-btn').click(function(){
 			console.log("logged in");
 			window.location = '/theDeepDarkPlace';
 		} else {
+			$('#invalidUserOrPW').show();
 			console.log("not logged in");
 		}
 	});

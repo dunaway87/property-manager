@@ -14,9 +14,10 @@
 
 <link href="dist/css/bootstrap.css" rel="stylesheet">
 
-<link href="public/stylesheets/signin.css" rel="stylesheet">
 
 <link href="public/stylesheets/main.css" rel="stylesheet">
+<link href="public/stylesheets/signin.css" rel="stylesheet">
+
 <script src="//code.jquery.com/jquery-1.9.1.js"></script>
 <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
@@ -101,10 +102,14 @@
 		<!-- /.container-fluid -->
 	</nav>
 	<div class="wrapper">
+	<div class="falseback"></div>
+	
 		<div class="container">
 
 			<div class="form-signin">
 				<h2 class="form-signin-heading">Please sign in</h2>
+				<p id="invalidUserOrPW">Invalid user name or password</p>
+				
 				<label for="inputEmail" class="sr-only">Email address</label> <input
 					type="email" id="inputEmail" class="form-control"
 					placeholder="Email address" required autofocus> <label
