@@ -8,7 +8,8 @@ $('#signin-btn').click(function(){
 	console.log(userData);
 	
 	$.post("signin", userData, function(data){
-
+		console.log(data);
+		console.log(data.members.login.value);
 		if(data.members.login.value == 'success'){
 			console.log("logged in");
 			window.location = '/theDeepDarkPlace';
@@ -17,8 +18,5 @@ $('#signin-btn').click(function(){
 			console.log("not logged in");
 		}
 	});
-	
-	
-	
-	
+
 });
