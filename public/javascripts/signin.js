@@ -16,7 +16,7 @@ $('#signin-btn').click(function(){
 			var loginSuccess = data.members.login;
 		}
 		
-		if(data.members.login.value == 'success'){
+		if(loginSuccess == 'success'){
 			console.log("logged in");
 			window.location = '/theDeepDarkPlace';
 		} else {
