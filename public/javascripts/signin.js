@@ -10,6 +10,12 @@ $('#signin-btn').click(function(){
 	$.post("signin", userData, function(data){
 		console.log(data);
 		console.log(data.members.login.value);
+		
+		var loginSuccess = data.members.login.value;
+		if(loginSuccess === undefined){
+			var loginSuccess = data.members.login;
+		}
+		
 		if(data.members.login.value == 'success'){
 			console.log("logged in");
 			window.location = '/theDeepDarkPlace';
