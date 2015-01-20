@@ -33,8 +33,5 @@ $('#add-user').click(function(){
 				window.location = '../buyerInfo'
 			}
 		});
-
-
 	}
-
 });

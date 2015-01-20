@@ -19,3 +19,11 @@ if(email==''){
 	$('#loggedInDropdown').show();
 	$('#login-tab').hide();	
 }
+
+
+$('#startPaperwork').click(function(){
+	
+	window.location='buyerInfo';
+	
+	
+})

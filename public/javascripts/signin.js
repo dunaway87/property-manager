@@ -18,7 +18,7 @@ $('#signin-btn').click(function(){
 		
 		if(loginSuccess == 'success'){
 			console.log("logged in");
-			window.location = 'buyerInfo';
+			window.location = '..';
 		} else {
 			$('#invalidUserOrPW').show();
 			console.log("not logged in");
@@ -26,3 +26,13 @@ $('#signin-btn').click(function(){
 	});
 
 });
+
+
+if(email==''){
+	$('#homeNotLoggedIn').show();
+	$('#homeLoggedIn').hide();
+
+} else {
+	$('#homeNotLoggedIn').hide();
+	$('#homeLoggedIn').show();
+}
