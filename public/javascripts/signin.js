@@ -18,7 +18,7 @@ $('#signin-btn').click(function(){
 		
 		if(loginSuccess == 'success'){
 			console.log("logged in");
-			window.location = 'theDeepDarkPlace';
+			window.location = 'buyerInfo';
 		} else {
 			$('#invalidUserOrPW').show();
 			console.log("not logged in");

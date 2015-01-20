@@ -52,7 +52,7 @@ public class Application extends Controller {
 
 	}
 
-	public static void theDeepDarkPlace(){
+	public static void buyerInfo(){
 		Users user = Secure.getUser();
 		if(user.email != null){
 			renderArgs.put("user", user);
@@ -107,7 +107,6 @@ public class Application extends Controller {
 		}
 		
 		renderJSON(response);
-
 	}
 
 	public static void logout(){

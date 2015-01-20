@@ -30,7 +30,7 @@ $('#add-user').click(function(){
 				$('#emailExistsAlready').show();
 				
 			} else {
-				window.location = '../theDeepDarkPlace'
+				window.location = '../buyerInfo'
 			}
 		});
 

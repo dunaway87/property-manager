@@ -13,7 +13,7 @@ GET		/signup										Application.signup
 POST	/signup										Application.addUser
 POST	/signin										Application.signinUser
 
-GET		/theDeepDarkPlace						Application.theDeepDarkPlace
+GET		/buyerInfo						Application.buyerInfo
 GET		/slide									Slides.getSlide
 
 
