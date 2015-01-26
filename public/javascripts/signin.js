@@ -18,7 +18,7 @@ $('#signin-btn').click(function(){
 		
 		if(loginSuccess == 'success'){
 			console.log("logged in");
-			window.location = '../';
+			window.location = '';
 		} else {
 			$('#invalidUserOrPW').show();
 			console.log("not logged in");
