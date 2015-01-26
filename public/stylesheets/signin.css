@@ -8,8 +8,8 @@
  }
  
   .falseback{
-  	height: calc(100% - 45px);
-	min-height: calc(100% - 45px);
+  	height: calc(100% - 65px);
+	min-height: calc(100% - 6px);
   }
   
   #invalidUserOrPW{

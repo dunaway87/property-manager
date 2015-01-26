@@ -22,8 +22,9 @@ if(email==''){
 
 
 $('#startPaperwork').click(function(){
-	
 	window.location='buyerInfo';
-	
-	
+})
+
+$('#exploreMap').click(function(){
+	window.location='/cheyenne';
 })

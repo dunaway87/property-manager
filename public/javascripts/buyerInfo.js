@@ -4,7 +4,7 @@ var slideTag = '';
 var slideInnerName;
 var slideName ;
 function getSlide(){
-	$(slideName).fadeOut();
+	$(slideName).fadeOut(0);
 
 	var slideData = {'count':count};
 	 
@@ -21,7 +21,10 @@ function getSlide(){
 	$.get('slide',slideData,function(data){
 		$(slideInnerName).html(data);
 		
-		$(slideName).fadeIn();
+
+			$(slideName).fadeIn(0);
+
+			
 
 		count = count+1;
 	});
