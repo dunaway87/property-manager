@@ -6,7 +6,7 @@ $("#logout-btn").click(function(){
 	
 	$.get('logout',function(data){
 		
-		window.location='/property-manager';
+		window.location='';
 		
 	});
 	
