@@ -125,9 +125,9 @@ body {
 	left:12.5%;
 	max-height:inherit;
  	position:absolute;
- 	background: lightBlue;
+ 	background: #e7e7e7;
  	width:75%;
- 	opacity:.9;
+
  	z-index: 0;
  	overflow:hidden;
  }
@@ -150,8 +150,7 @@ body {
 
 body {
   color: #333333;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
 }
 
 
@@ -176,5 +175,9 @@ body {
 
 .navbar, .blackbar{
 	min-width:615px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#e7e7e7;
 }
   

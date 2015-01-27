@@ -44,7 +44,7 @@ public class Application extends Controller {
 		render();
 
 	}
-
+	
 	public static void signup(){
 		Users user = Secure.getUser();
 		renderArgs.put("user", user);
@@ -84,8 +84,6 @@ public class Application extends Controller {
 	}
 
 	public static void signinUser(String email, String password){
-		Logger.info("email %s" ,email);
-		Logger.info("pw %s" ,password);
 
 		
 		JsonObject response = new JsonObject();
@@ -95,7 +93,7 @@ public class Application extends Controller {
 		} else {
 			Users user = userList.get(0);
 
-
+			
 			if(Crypto.decryptAES(user.pw).equals(password)){
 				response.addProperty("login", "success");
 				
